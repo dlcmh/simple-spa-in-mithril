@@ -31,3 +31,5 @@ Create view model 'src/views/UserList.js' to display data from User model:
 - use `oninit` component lifecycle method to trigger call to User.loadList when rendering this view
 
 Render 'UserList.js' view in 'src/index.js'.
+
+Add routing by changing `m.mount` to `m.route`.
