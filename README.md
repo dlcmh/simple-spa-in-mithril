@@ -16,3 +16,9 @@ Add code to 'User.js' to load data from a server using Mithril's XHR utility, `m
 
 - include Mithril in the module
 - create function `loadList` to trigger XHR call
+- implement `m.request` -> returns a Promise that resolves to the data from the endpoint - Mithril assumes that the response is in JSON format.
+
+This simple 'User.js' model exposes two members:
+
+- User.list (an array of user objects),
+- and User.loadList (a method that populates User.list with server data).
