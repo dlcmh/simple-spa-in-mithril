@@ -41,3 +41,4 @@ Editing users:
 - create route (that accepts `id` parameter) to reference 'UserForm.js'
 - implement 'UserForm.js' component to accept `id` parameter
 - add styles
+- add code to 'User.js' to load a single user
