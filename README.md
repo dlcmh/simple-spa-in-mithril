@@ -39,3 +39,4 @@ Editing users:
 - create module 'views/UserForm.js'
 - require 'UserForm.js' in 'index.js'
 - create route (that accepts `id` parameter) to reference 'UserForm.js'
+- implement 'UserForm.js' component to accept `id` parameter
