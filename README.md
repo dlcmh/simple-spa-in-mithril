@@ -29,3 +29,5 @@ Create view model 'src/views/UserList.js' to display data from User model:
 - use Mithril hyperscript to create a list of items
 - reference the list of users to dynamically loop though the data
 - use `oninit` component lifecycle method to trigger call to User.loadList when rendering this view
+
+Render 'UserList.js' view in 'src/index.js'.
