@@ -26,3 +26,4 @@ This simple 'User.js' model exposes two members:
 Create view model 'src/views/UserList.js' to display data from User model:
 
 - include Mithril and 'User.js' model
+- use Mithril hyperscript to create a list of items
