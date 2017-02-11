@@ -1,6 +1,7 @@
 var m = require('mithril')
 
 var UserList = require('./views/UserList')
+var UserForm = require('./views/UserForm')
 
 // The m.route call specifies that the application will be rendered into
 // document.body. The "/list" argument is the default route. That means the user

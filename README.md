@@ -37,3 +37,4 @@ Add routing by changing `m.mount` to `m.route`.
 Editing users:
 
 - create module 'views/UserForm.js'
+- require 'UserForm.js' in 'index.js'
