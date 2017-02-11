@@ -44,3 +44,4 @@ Editing users:
 - add code to 'User.js' to load a single user
 - make 'UserForm.js' `oninit` method call `User.load` to load a single user based on `id` parameter (bound as `vnode.attrs.id`)
 - make 'UserForm.js' navigable from 'UserList.js'
+- make 'UserForm.js' be able to save data, `oninput`, `m.withAttr`, `onClick` call `User.save` method
