@@ -8,3 +8,6 @@ Install Mithril (full instructions in [Installation - Mithril.js](http://mithril
 
     npm install mithril --save
     npm install webpack --save-dev
+
+
+Create 'User.js' module to store state.
