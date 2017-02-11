@@ -42,3 +42,4 @@ Editing users:
 - implement 'UserForm.js' component to accept `id` parameter
 - add styles
 - add code to 'User.js' to load a single user
+- make 'UserForm.js' `oninit` method call `User.load` to load a single user based on `id` parameter (bound as `vnode.attrs.id`)
