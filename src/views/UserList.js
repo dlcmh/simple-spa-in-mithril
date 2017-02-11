@@ -18,7 +18,12 @@ module.exports = {
     // div is the default. So this view is equivalent to
     // <div class="user-list"></div>
     return m('.user-list', User.list.map(function(user) {
-      return m('.user-list-item', user.firstName + ' ' + user.lastName)
+      // oncreate: m.route.link makes the link behave like a routed link
+      // as opposed to merely behaving like a regular link). What this means is
+      // that clicking the link would change the part of URL that comes after
+      // the hashbang #! (thus changing the route without unloading the current
+      // HTML page)
+      return m('a.user-list-item', {href: '/edit/' + user.id, oncreate: m.route.link}, user.firstName + ' ' + user.lastName)
     }))
   }
 }
