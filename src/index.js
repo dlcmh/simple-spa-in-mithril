@@ -9,5 +9,6 @@ var UserForm = require('./views/UserForm')
 // The {"/list": UserList} object declares a map of existing routes, and what
 // components each route resolves to.
 m.route(document.body, '/list', {
-  '/list': UserList
+  '/list': UserList,
+  '/edit/:id': UserForm,
 })
