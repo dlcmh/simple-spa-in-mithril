@@ -15,3 +15,4 @@ Create 'User.js' module to store state.
 Add code to 'User.js' to load data from a server using Mithril's XHR utility, `m.request`:
 
 - include Mithril in the module
+- create function `loadList` to trigger XHR call
