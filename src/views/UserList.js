@@ -7,6 +7,8 @@ module.exports = {
     // .user-list represents a class. When a tag is not specified,
     // div is the default. So this view is equivalent to
     // <div class="user-list"></div>
-    return m('.user-list')
+    return m('.user-list', User.list.map(function(user) {
+      return m('.user-list-item', user.firstName + ' ' + user.lastName)
+    }))
   }
 }
