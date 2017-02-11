@@ -4,7 +4,8 @@
   "description": "Based on [Simple application - Mithril.js](http://mithril.js.org/simple-application.html).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack src/index.js bin/app.js -d --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/dlcmh/simple-spa-in-mithril/issues"
   },
-  "homepage": "https://github.com/dlcmh/simple-spa-in-mithril#readme"
+  "homepage": "https://github.com/dlcmh/simple-spa-in-mithril#readme",
+  "dependencies": {
+    "mithril": "^1.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
 }
