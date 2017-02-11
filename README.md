@@ -22,3 +22,7 @@ This simple 'User.js' model exposes two members:
 
 - User.list (an array of user objects),
 - and User.loadList (a method that populates User.list with server data).
+
+Create view model 'src/views/UserList.js' to display data from User model:
+
+- include Mithril and 'User.js' model
