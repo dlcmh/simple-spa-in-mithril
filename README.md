@@ -11,3 +11,7 @@ Install Mithril (full instructions in [Installation - Mithril.js](http://mithril
 
 
 Create 'User.js' module to store state.
+
+Add code to 'User.js' to load data from a server using Mithril's XHR utility, `m.request`:
+
+- include Mithril in the module

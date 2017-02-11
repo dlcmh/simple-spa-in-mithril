@@ -1,3 +1,5 @@
+var m = require('mithril')
+
 var User = {
   list: []
 }
